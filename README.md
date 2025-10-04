@@ -51,7 +51,8 @@ The buttons are further divided to:
 - Genre button ('genrebutton.cpp'): The six buttons representing the different genres. 
 - Arrow button ('arrowbutton.cpp'): The two arrow buttons that lead to more movies in the home screen. 
 - Return button ('returnbutton.cpp'): The button in the genre-based and year-based screens that leads back to the home screen. 
-- Movie button ('moviebutton.cpp'): Manages the creation of the description box when a movie is selected. 
+- Movie button ('moviebutton.cpp'): Manages the creation of the description box when a movie is selected.
+All four of these classes inherit 'button.h". 
 
 More information on building the SGG library in order to run this project can be found [here](https://cgaueb.github.io/sgg/index.html).
 
